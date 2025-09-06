@@ -11,5 +11,6 @@ namespace HelloApi.Models
         public int UpdatedBy { get; set; }
         public DateTime? UpdatedAt { get; set; }
         public List<OrderDetail> OrderDetails { get; set; } = [];
+        public DateTime OrderDate { get; set; } = DateTime.Now;
     }
 }
